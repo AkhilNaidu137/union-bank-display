@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">UNION</string>
+
+    <!-- EditText hints -->
+
+    <!-- Buttons -->
+    <string name="button_connect">Connect</string>
+    <string name="button_save">Save</string>
+    <string name="button_send">Send</string>
+    <string name="button_clear">Clear</string>
+
+    <!-- Status messages -->
+    <string name="status_default">Status: Not connected</string>
+    <string name="status_connected">Status: Connected</string>
+    <string name="status_failed">Status: Failed to connect</string>
+
+
+    <!-- Toasts -->
+    <string name="toast_enter_ip">Enter IP address</string>
+    <string name="toast_fill_one_field">Enter at least one value to send</string>
+    <string name="toast_connect_first">Please connect first</string>
+    <string name="toast_data_sent">Data sent!</string>
+    <string name="toast_failed_send">Failed to send</string>
+
+
+
+</resources>
