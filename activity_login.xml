@@ -1,0 +1,64 @@
+<!--suppress ALL -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:id="@+id/rootLayout">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="174dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="App Logo"
+        android:src="@drawable/admin"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:background="@drawable/rounded_box"
+        android:hint=" Username"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="  admin"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="@drawable/rounded_box"
+        android:cursorVisible="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint=" Password"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText,VisualLintTextFieldSize,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="108dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="24dp"
+        android:background="#2196fe"
+        android:cursorVisible="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,VisualLintButtonSize,TextSizeCheck,TouchTargetSizeCheck" />
+</LinearLayout>
